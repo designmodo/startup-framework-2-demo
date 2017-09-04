@@ -43,8 +43,8 @@ startup-framework-2-demo/
 
 ### Fonts
 Startup Framework 2 is made using the Open Sans and Raleway typefaces, which can be downloaded for free here: 
-https://fonts.google.com/specimen/Open+Sans
-https://fonts.google.com/specimen/Raleway
+- https://fonts.google.com/specimen/Open+Sans
+- https://fonts.google.com/specimen/Raleway
 
 ### Full version
 [Get Full Version](https://designmodo.com/startup/) | [Try Generator](https://designmodo.com/startup/app/)
@@ -56,17 +56,12 @@ https://fonts.google.com/specimen/Raleway
 - 20 days money back policy
 
 ### Useful Info
-More products by Designmodo: https://designmodo.com/shop/
-
-Designmodo Market: http://market.designmodo.com/
-
-Affiliate Program (earn 25% from sales): https://designmodo.com/affiliates/
+- More products by Designmodo: https://designmodo.com/shop/
+- Designmodo Market: http://market.designmodo.com/
+- Affiliate Program (earn 25% from sales): https://designmodo.com/affiliates/
 
 ### Social Media
-Twitter: http://www.twitter.com/designmodo
-
-Facebook: http://www.facebook.com/designmodo
-
-RSS: http://feeds.feedburner.com/designmodo
-
-Google+: https://www.google.com/+DesignModo
+- Twitter: http://www.twitter.com/designmodo
+- Facebook: http://www.facebook.com/designmodo
+- RSS: http://feeds.feedburner.com/designmodo
+- Google+: https://www.google.com/+DesignModo
