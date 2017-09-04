@@ -1,0 +1,241 @@
+@import 'variables.scss';
+
+/* Blocks layout */
+
+body{
+	font-family:$base_font;
+	font-weight:$normal;
+	font-size:$base_font_size;
+	line-height:$base_line_height;
+	-webkit-font-smoothing: antialiased;
+/* 	background:#ecf0f1; */
+}
+
+header{
+	position:relative;
+	nav{
+		position:absolute;
+		top:0;
+		left:0;
+		z-index:1000;
+	}
+}
+
+nav{
+	width:100%;
+	&.transparent{
+		background:transparent;
+	}
+}
+
+a{
+	color:$dark_blue;
+	cursor:pointer;
+	transition:all 0.2s;
+	&:hover{
+		color:$dark_blue_hover;
+		text-decoration:none;
+	}
+	&:focus{
+		color:$dark_blue_hover;
+		text-decoration:none;
+		outline:none;
+	}
+}
+
+button{
+	border:none;
+	outline:none !important;
+	transition:all 0.2s;
+}
+
+h1{
+	margin:0 auto;
+	font-size:82px;
+	line-height:92px;
+	font-weight:$light;
+	font-family:$second_font;
+}
+
+h2{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+
+b{
+	font-weight:$semibold;
+}
+
+.container{
+	position:relative;
+}
+
+/* Header 13 */
+
+.header_13{
+	background:#2b48e7 url(../i/header_13_bg.jpg) 50% 100%;
+	background-size:cover;
+	@media#{$retina}{
+		background-image:url(../i/header_13_bg_2x.jpg);
+	}
+	padding-bottom:632px;
+}
+
+/* Navigation Mobile */
+
+.navigation_mobile{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:0px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	z-index:1000;
+	background:$black;
+	transition:width 0.2s;
+	&.opened{
+		width:320px;
+		.close_menu{
+			display:block;
+		}
+	}
+}
+
+.open_menu, .close_menu{
+	display:none;
+	top:20px;
+	width:40px;
+	height:40px;
+	color:$dark_blue;
+	font-size:20px;
+	line-height:40px;
+	text-align:center;
+	z-index:990;
+	&.visible{
+		display:block;
+	}
+	&.white{
+		color:$white;
+	}
+	&.blue{
+		color:$blue;
+	}
+	&.right{
+		left:auto;
+		right:20px;
+	}
+}
+
+.open_menu{
+	position:fixed;
+	left:20px;
+}
+
+.close_menu{
+	right:20px;
+	position:absolute;
+}
+
+/* Navigation 16 */
+
+.navigation_16{
+	background:$dark_gray;
+}
+
+/* Content 4 */
+
+.content_4{
+	background:$white;
+}
+
+/* Content 18 */
+
+.content_18{
+	background:$white;
+	.opening_tabs{
+		.tab_opener{
+			.fa{
+				&:before{
+					content:"\f105";
+					color:$blue;
+				}
+			}
+			&.opened{
+				.fa{
+					&:before{
+						content:"\f107";
+						color:$medium_gray;
+					}
+				}
+			}
+		}
+		.tab_text{
+			border-bottom:1px solid $light_gray;
+			&:last-child{
+				border:none;
+			}
+		}
+	}
+}
+
+/* Feature 15 */
+
+.feature_15{
+	background:$white;
+}
+
+/* Feature 26 */
+
+.feature_26{
+	background:#e2f1f9;
+}
+
+/* Call to Action 1 */
+
+.call_to_action_1{
+	background:#e2f1f9;
+}
+
+/* Team 4 */
+
+.team_4{
+	background:$white;
+	.block{
+		&:hover{
+			opacity:0.8;
+		}
+	}
+}
+
+/* Pricing Table 6 */
+
+.pricing_table_6{
+	background:#e2f1f9;
+	.change_slide{
+		background:$green;
+		vertical-align:middle;
+		&:hover, &:focus{
+			background:$green_hover;
+		}
+		i{
+			background:$white;
+			left:0px;
+		}
+	}
+	.slider{
+		.block{
+			background:$white;
+			img{
+				border-top-left-radius:10px;
+				border-top-right-radius:10px;
+			}
+		}
+	}
+}
+
+/* Footer 2 */
+
+.footer_2{
+	background:$white;
+}
