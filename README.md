@@ -57,10 +57,16 @@ https://fonts.google.com/specimen/Raleway
 
 ### Useful Info
 More products by Designmodo: https://designmodo.com/shop/
+
 Designmodo Market: http://market.designmodo.com/
+
 Affiliate Program (earn 25% from sales): https://designmodo.com/affiliates/
+
 ### Social Media
 Twitter: http://www.twitter.com/designmodo
+
 Facebook: http://www.facebook.com/designmodo
+
 RSS: http://feeds.feedburner.com/designmodo
+
 Google+: https://www.google.com/+DesignModo
