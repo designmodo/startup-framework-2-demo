@@ -1,9 +1,9 @@
 ![Startup Framework 2](https://designmodo.github.io/startup-framework-2-demo/i/1200x320.png)
-# Startup Framework 2.0
-*Suit up your startup*
+# [Startup Framework 2.0 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
+*Create a beautiful, responsive website like this one in under 60 minutes.*
 
-### Free Demo
-[Live Demo](https://designmodo.github.io/startup-framework-2-demo/) | [Download](https://github.com/designmodo/startup-framework-2-demo/archive/master.zip)
+### [Download](https://github.com/designmodo/startup-framework-2-demo/archive/master.zip)
+
 The following repository contains the [demo template](https://designmodo.github.io/startup-framework-2-demo/) exported from the [Generator app](https://designmodo.com/startup/app/), also Photoshop and Sketch files for a designer. The template is retina-ready and responsive. Everything included in the repository is under [Apache License 2.0 license](https://github.com/designmodo/startup-framework-2-demo/blob/master/LICENSE).
 
 ### What's Included
