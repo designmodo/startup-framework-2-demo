@@ -43,8 +43,8 @@ startup-framework-2-demo/
 
 ### Fonts
 Startup Framework 2.1 is made using the Open Sans and Raleway typefaces, which can be downloaded for free here: 
-- https://fonts.google.com/specimen/Open+Sans
-- https://fonts.google.com/specimen/Raleway
+- https://fonts.google.com/specimen/Nunito+Sans
+- https://fonts.google.com/specimen/Nunito
 
 ### Full version
 [Get Full Version](https://designmodo.com/startup/) | [Try Generator](https://designmodo.com/startup/app/)
