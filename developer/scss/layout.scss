@@ -8,7 +8,6 @@ body{
 	font-size:$base_font_size;
 	line-height:$base_line_height;
 	-webkit-font-smoothing: antialiased;
-/* 	background:#ecf0f1; */
 }
 
 header{
@@ -49,6 +48,10 @@ button{
 	transition:all 0.2s;
 }
 
+.btn.focus, .btn:focus{
+	box-shadow:none;
+}
+
 h1{
 	margin:0 auto;
 	font-size:82px;
@@ -57,12 +60,12 @@ h1{
 	font-family:$second_font;
 }
 
-h2{
+h1, h2{
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 }
 
-b{
+b, strong{
 	font-weight:$semibold;
 }
 
@@ -78,15 +81,15 @@ b{
 	@media#{$retina}{
 		background-image:url(../i/header_13_bg_2x.jpg);
 	}
-	padding-bottom:632px;
 }
 
 /* Navigation Mobile */
 
 .navigation_mobile{
+	display:none;
 	position:fixed;
 	top:0px;
-	left:0px;
+	left:-40px;
 	height:100%;
 	width:0px;
 	overflow-x:hidden;
@@ -95,10 +98,14 @@ b{
 	background:$black;
 	transition:width 0.2s;
 	&.opened{
+		left:0px;
 		width:320px;
 		.close_menu{
 			display:block;
 		}
+	}
+	&.type1{
+		
 	}
 }
 
@@ -116,10 +123,10 @@ b{
 		display:block;
 	}
 	&.white{
-		color:$white;
+		color:$white !important;
 	}
 	&.blue{
-		color:$blue;
+		color:$blue !important;
 	}
 	&.right{
 		left:auto;
@@ -137,24 +144,12 @@ b{
 	position:absolute;
 }
 
-/* Navigation 16 */
-
-.navigation_16{
-	background:$dark_gray;
-}
-
-/* Content 4 */
-
-.content_4{
-	background:$white;
-}
-
 /* Content 18 */
 
 .content_18{
-	background:$white;
 	.opening_tabs{
 		.tab_opener{
+			margin:0;
 			.fa{
 				&:before{
 					content:"\f105";
@@ -179,28 +174,9 @@ b{
 	}
 }
 
-/* Feature 15 */
-
-.feature_15{
-	background:$white;
-}
-
-/* Feature 26 */
-
-.feature_26{
-	background:#e2f1f9;
-}
-
-/* Call to Action 1 */
-
-.call_to_action_1{
-	background:#e2f1f9;
-}
-
 /* Team 4 */
 
 .team_4{
-	background:$white;
 	.block{
 		&:hover{
 			opacity:0.8;
@@ -211,15 +187,24 @@ b{
 /* Pricing Table 6 */
 
 .pricing_table_6{
-	background:#e2f1f9;
 	.change_slide{
 		background:$green;
 		vertical-align:middle;
+		&:before{
+			font-family:"FontAwesome";
+			content:"\f00c";
+			display:block;
+			position:absolute;
+			left:15px;
+			top:0px;
+			color:$white;
+			font-size:10px;
+			line-height:40px;
+		}
 		&:hover, &:focus{
 			background:$green_hover;
 		}
 		i{
-			background:$white;
 			left:0px;
 		}
 	}
@@ -232,10 +217,4 @@ b{
 			}
 		}
 	}
-}
-
-/* Footer 2 */
-
-.footer_2{
-	background:$white;
 }
