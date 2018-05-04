@@ -1,0 +1,341 @@
+@import 'variables.scss';
+
+/* Blocks adaptive layout */
+
+/* Smaller than 1200px */
+@media(max-width:1200px){
+	.container{
+		&.nopadding{
+			padding-left:15px;
+			padding-right:15px;
+		}
+	}
+	
+	.navigation_16{
+		text-align:center;
+		.logo{
+			margin-top:0;
+			text-align:center;
+		}
+		.float_left, .float_right{
+			float:none;
+		}
+		.block_right{
+			margin-top:10px;
+		}
+	}
+	
+	.header_13{
+		background-size:contain;
+		background-repeat:no-repeat;
+		padding-bottom:550px;
+		.inner{
+			.logo{
+				margin-top:100px;
+			}
+		}
+	}
+	
+	.feature_15{
+		padding:80px 0;
+		.bg{
+			max-width:400px;
+		}
+	}
+	
+	.feature_26{
+		.block{
+			margin-left:0;
+		}
+	}
+	
+	.team_4{
+		padding:80px 0;
+		.inner{
+			max-width:740px;
+		}
+	}
+}
+
+/* Smaller than 992px */
+@media(max-width:992px){
+	h2, .text{
+		br{
+			display:none;
+		}
+	}
+	
+	.header_13{
+		padding-bottom:450px;
+		h1{
+			font-size:52px;
+			line-height:62px;
+		}
+		.text{
+			margin-top:30px;
+		}
+	}
+	
+	.content_18{
+		.opening_tabs{
+			float:none;
+		}
+		.block_right{
+			float:none;
+			width:auto;
+		}
+	}
+	
+	.feature_15{
+		.block_left{
+			float:none;
+			text-align:center;
+			max-width:100%;
+			.block{
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
+		.bg{
+			max-width:100%;
+			float:none;
+			display:block;
+			margin:70px auto 0 auto;
+		}
+	}
+	
+	.feature_26{
+		padding:80px 0;
+		.bg{
+			float:none;
+		}
+		.inner{
+			margin-left:0;
+			.blocks{
+				.block{
+					margin-right:50px;
+					&.last{
+						margin-right:0;
+					}
+				}
+			}
+		}
+	}
+	
+	.call_to_action_1{
+		padding:80px 0;
+		h2{
+			font-size:42px;
+			line-height:52px;
+		}
+		.text1{
+			font-size:20px;
+			line-height:30px;
+		}
+		.btn{
+			height:60px;
+			line-height:60px;
+			padding:0 30px;
+			font-size:16px;
+			margin-top:40px;
+		}
+	}
+	
+	.team_4{
+		.inner{
+			.block{
+				width:270px;
+			}
+		}
+	}
+	
+	.pricing_table_6{
+		padding:80px 0 10px 0;
+		.block{
+			max-width:350px;
+		}
+	}
+}
+
+/* Smaller than 767px */
+@media(max-width:767px){
+	h1, h2{
+		br{
+			display:none;
+		}
+	}
+	
+	.pricing_table_6{
+		.slider{
+			.flex{
+				display:block;
+			}
+		}
+		.block{
+			max-width:370px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+}
+
+/* Smaller than 640px */
+@media(max-width:640px){
+	
+	.header_13{
+		padding-bottom:300px;
+	}
+	
+}
+
+/* Smaller than 600px */
+@media(max-width:600px){
+	
+	.feature_15{
+		h2{
+			font-size:32px;
+			line-height:42px;
+		}
+	}
+	
+	.feature_26{
+		h2{
+			font-size:32px;
+			line-height:42px;
+		}
+		.text{
+			font-size:18px;
+			line-height:28px;
+		}
+		.blocks{
+			margin-top:70px;
+		}
+	}
+	
+	.call_to_action_1{
+		h2{
+			font-size:32px;
+			line-height:42px;
+		}
+		.text1{
+			font-size:18px;
+			line-height:28px;
+		}
+		.text2{
+			margin-top:15px;
+		}
+	}
+	
+	.team_4{
+		h2{
+			font-size:32px;
+			line-height:42px;
+		}
+		.inner{
+			.block{
+				width:100%;
+			}
+		}
+	}
+	
+	.pricing_table_6{
+		h2{
+			font-size:32px;
+			line-height:42px;
+		}
+		.block{
+			.inner{
+				padding:0 30px;
+			}
+			.title{
+				font-size:22px;
+				line-height:32px;
+			}
+		}
+	}
+	
+}
+
+/* Smaller than 568px */
+@media(max-width:568px){
+	
+	.content_4{
+		padding-top:80px;
+		padding-bottom:80px;
+		.icons{
+			font-size:30px;
+			line-height:40px;
+			.fa{
+				margin:0 15px;
+			}
+		}
+		h2{
+			margin-top:30px;
+			font-size:32px;
+			line-height:42px;
+		}
+		.text{
+			margin-top:30px;
+			font-size:18px;
+			line-height:28px;
+		}
+	}
+	
+}
+
+/* Smaller than 500px */
+@media(max-width:500px){
+	
+	.header_13{
+		padding-bottom:250px;
+	}
+	
+}
+
+/* Smaller than 470px */
+@media(max-width:470px){
+	
+	.feature_15{
+		.buttons{
+			.btn{
+				display:block;
+				margin-left:0;
+				padding:0;
+			}
+		}
+	}
+	
+}
+
+/* Smaller than 400px */
+@media(max-width:400px){
+	
+	.header_13{
+		padding-bottom:200px;
+		h1{
+			font-size:42px;
+			line-height:52px;
+		}
+		.text{
+			font-size:18px;
+			line-height:28px;
+		}
+	}
+
+}
+
+/* Smaller than 375px */
+@media(max-width:375px){
+	
+	.feature_26{
+		.inner{
+			.blocks{
+				.block{
+					margin-right:0px;
+					float:none;
+				}
+			}
+		}
+	}
+	
+}
