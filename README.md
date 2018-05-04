@@ -42,7 +42,7 @@ startup-framework-2-demo/
 ```
 
 ### Fonts
-Startup Framework 2.1 is made using the Open Sans and Raleway typefaces, which can be downloaded for free here: 
+Startup Framework 2.1 is made using the Nunito Sans and Nunito typefaces, which can be downloaded for free here: 
 - https://fonts.google.com/specimen/Nunito+Sans
 - https://fonts.google.com/specimen/Nunito
 
