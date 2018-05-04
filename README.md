@@ -1,5 +1,5 @@
 ![Startup Framework 2](https://designmodo.github.io/startup-framework-2-demo/i/1200x320.png)
-# [Startup Framework 2.0 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
+# [Startup Framework 2.1 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
 *Create a beautiful, responsive website like this one in under 60 minutes.*
 
 ### [Download](https://github.com/designmodo/startup-framework-2-demo/archive/master.zip)
@@ -42,7 +42,7 @@ startup-framework-2-demo/
 ```
 
 ### Fonts
-Startup Framework 2 is made using the Open Sans and Raleway typefaces, which can be downloaded for free here: 
+Startup Framework 2.1 is made using the Open Sans and Raleway typefaces, which can be downloaded for free here: 
 - https://fonts.google.com/specimen/Open+Sans
 - https://fonts.google.com/specimen/Raleway
 
