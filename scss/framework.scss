@@ -1,6 +1,28 @@
 @import 'variables.scss';
 
+/* Change bootstrap's .container width */
+
+@media(min-width: 768px){
+	.container{
+		max-width:750px;
+	}
+}
+@media(min-width: 992px){
+	.container{
+		max-width:970px;
+	}
+}
+@media(min-width: 1200px){
+	.container{
+		max-width:1170px;
+	}
+}
+
 /* Classes for all elements */
+
+.hidden{
+	display:none;
+}
 
 .nopadding{
 	padding-left:0px;
@@ -66,6 +88,7 @@ $i: 0;
 $i: 1;
 @while $i < 11 {
 	.height#{$i} {height: 1px * $i;}
+	.left#{$i} {margin-left: 1px * $i;}
 	$i: $i + 1;
 }
 
@@ -96,10 +119,10 @@ $i: 1;
 		justify-content:center;
 	}
 	&.justify_right{
-		-webkit-justify-content:right;
-		-moz-justify-content:right;
-		-ms-justify-content:right;
-		justify-content:right;
+		-webkit-justify-content:flex-end;
+		-moz-justify-content:flex-end;
+		-ms-justify-content:flex-end;
+		justify-content:flex-end;
 	}
 	&.align_center{
 		-webkit-align-items:center;
@@ -152,8 +175,12 @@ $i: 12;
 		}
 		$i: $i + 2;
 }
-.raleway{
-	font-family:Raleway;
+
+.font_first{
+	font-family:$base_font;
+}
+.font_second{
+	font-family:$second_font;
 }
 
 .uppercase{
@@ -170,6 +197,14 @@ $i: 12;
     -ms-hyphens: auto;
 }
 
+.thin{
+	font-weight:$thin;
+}
+
+.extralight{
+	font-weight:$extralight;
+}
+
 .light{
 	font-weight:$light;
 }
@@ -180,6 +215,18 @@ $i: 12;
 
 .semibold{
 	font-weight:$semibold;
+}
+
+.bold{
+	font-weight:$bold;
+}
+
+.extrabold{
+	font-weight:$extrabold;
+}
+
+.heavy{
+	font-weight:$heavy;
 }
 
 .spacing{
@@ -244,6 +291,8 @@ $i: 12;
 		}
 	}
 }
+
+/* Colors */
 
 .white{
 	color:$white;
@@ -336,6 +385,79 @@ $i: 12;
 	}
 }
 
+/* background-colors */
+
+.bg{
+	&_white{
+		background:$white;
+	}
+	&_white_hover{
+		background:$white_hover;
+	}
+	&_sand{
+		background:$sand;
+	}
+	&_black{
+		background:$black;
+	}
+	&_black_hover{
+		background:$black_hover;
+	}
+	&_blue{
+		background:$blue;
+	}
+	&_blue_hover{
+		background:$blue_hover;
+	}
+	&_light_blue{
+		background:$light_blue;
+	}
+	&_facebook_color{
+		background:$facebook_color;
+	}
+	&_facebook_color_hover{
+		background:$facebook_color_hover;
+	}
+	&_twitter_color{
+		background:$twitter_color;
+	}
+	&_twitter_color_hover{
+		background:$twitter_color_hover;
+	}
+	&_red{
+		background:$red;
+	}
+	&_red_hover{
+		background:$red_hover;
+	}
+	&_soft_red{
+		background:$soft_red;
+	}
+	&_dark_blue{
+		background:$dark_blue;
+	}
+	&_dark_blue_hover{
+		background:$dark_blue_hover;
+	}
+	&_light_gray{
+		background:$light_gray;
+	}
+	&_light_gray_hover{
+		background:$light_gray_hover;
+	}
+	&_medium_gray{
+		background:$medium_gray;
+	}
+	&_dark_gray{
+		background:$dark_gray;
+	}
+	&_green{
+		background:$green;
+	}
+	&_green_hover{
+		background:$green_hover;
+	}
+}
 
 $i: 4;
 @while $i < 31 {
@@ -395,7 +517,7 @@ $i: 4;
 	}
 	&.size50{
 		border:none;
-		font-size:18px;
+		font-size:16px;
 		height:50px;
 		line-height:50px;
 		-webkit-border-radius:25px;
@@ -405,9 +527,21 @@ $i: 4;
 			line-height:48px;
 		}
 	}
+	&.size60{
+		border:none;
+		font-size:16px;
+		height:60px;
+		line-height:60px;
+		-webkit-border-radius:30px;
+		-moz-border-radius:30px;
+		border-radius:30px;
+		&.border{
+			line-height:58px;
+		}
+	}
 	&.size80{
 		border:none;
-		font-size:18px;
+		font-size:16px;
 		height:80px;
 		line-height:80px;
 		-webkit-border-radius:40px;
@@ -428,7 +562,6 @@ $i: 4;
 		$i: $i + 2;
 	}
 	/* Colors */
-	
 	&.red{
 		color:$white;
 		background-color:$red;
@@ -459,7 +592,16 @@ $i: 4;
 			background-color:$black_hover;
 		}
 	}
-	
+	&.transparent_white{
+		color:$white;
+		background-color:transparent;
+		text-align:center;
+		font-family:$base_font;
+		font-weight:$normal;
+		&:hover, &:focus{
+			border-color:rgba(255,255,255,0.8);
+		}
+	}
 	&.transparent_blue{
 		color:$blue;
 		background-color:transparent;
@@ -497,15 +639,6 @@ $i: 4;
 		border-width:1px;
 		border-style:solid;
 	}
-	&.border_light_gray{
-		border-color:$light_gray;
-	}
-	&.border_medium_gray{
-		border-color:$medium_gray;
-	}
-	&.border_dark_gray{
-		border-color:$dark_gray;
-	}
 	&.border_red{
 		border-color:$red;
 	}
@@ -515,20 +648,11 @@ $i: 4;
 	&.border_dark_blue{
 		border-color:$dark_blue;
 	}
-	&.border_green{
-		border-color:$green;
-	}
-	&.border_pink{
-		border-color:$pink;
-	}
 	&.border_white{
 		border-color:$white;
 	}
-	&.border_twitter_color{
-		border-color:$twitter_color;
-	}
-	&.border_facebook_color{
-		border-color:$facebook_color;
+	&.border_transparent_white{
+		border-color:rgba(255,255,255,0.3);
 	}
 	
 	/* Other */
@@ -536,7 +660,6 @@ $i: 4;
 		font-weight:$semibold;
 	}
 }
-
 
 /* Other elements */
 
