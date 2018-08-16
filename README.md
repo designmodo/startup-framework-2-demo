@@ -1,4 +1,4 @@
-![Startup Framework 2](https://designmodo.github.io/startup-framework-2-demo/i/1200x320.png)
+![Startup Framework 2](https://designmodo.github.io/startup-framework-2-demo/i/1200x320.jpg)
 # [Startup Framework 2.0 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
 *Create a beautiful, responsive website like this one in under 60 minutes.*
 
