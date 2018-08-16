@@ -1,5 +1,5 @@
 ![Startup Framework 2](https://designmodo.github.io/startup-framework-2-demo/i/1200x320.jpg)
-# [Startup Framework 2.0 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
+# [Startup Framework 2.2 Free Demo](https://designmodo.github.io/startup-framework-2-demo/)
 *Create a beautiful, responsive website like this one in under 60 minutes.*
 
 ### [Download](https://github.com/designmodo/startup-framework-2-demo/archive/master.zip)
@@ -56,7 +56,7 @@ Startup Framework 2 is made using the Open Sans and Raleway typefaces, which can
 - 20 days money back policy
 
 ### Useful Info
-- More products by Designmodo: https://designmodo.com/shop/
+- More products by Designmodo: https://designmodo.com/products/
 - Designmodo Market: http://market.designmodo.com/
 - Affiliate Program (earn 25% from sales): https://designmodo.com/affiliates/
 
